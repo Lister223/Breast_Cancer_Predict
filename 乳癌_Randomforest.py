@@ -126,7 +126,7 @@ plt.show()
 with gzip.GzipFile('model/Logistic_breastcancer.pgz', 'w') as f:
     pickle.dump(Logistic, f)
 
-'''
+
 import pickle
 import gzip
 import numpy as np
@@ -143,7 +143,7 @@ with gzip.open('model/Logistic_breastcancer.pgz', 'r') as f:
     data = scaler.transform(data)
     pred = Logistic.predict(data)
     print(pred)
-
+'''
 
 
 

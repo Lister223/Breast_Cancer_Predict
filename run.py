@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import model
-from flask import Flask,request,jsonify,render_template ,redirect
+from flask import Flask,request,jsonify,render_template ,redirect, url_for
 from flask_cors import CORS
 
 app = Flask(__name__)

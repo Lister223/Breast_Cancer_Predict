@@ -9,7 +9,7 @@ CORS(app)
 
 @app.route('/')
 def index():
-    return 'Hello, World!'
+    return redirect(url_for('form'))
 @app.route('/form')
 def form():
     return render_template('form.html')
